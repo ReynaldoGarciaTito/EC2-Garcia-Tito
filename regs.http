@@ -1,0 +1,12 @@
+GET https://rest-holamundo.onrender.com
+
+###
+
+GET https://rest-holamundo.onrender.com/api/usuario/all
+
+###
+
+POST https://rest-holamundo.onrender.com/api/usuario/add
+Content-Type: application/x-www-form-urlencoded
+
+name=ReynaldoGT&email=reynaldo@gmail.com

@@ -1,10 +1,10 @@
-package com.example.demo;
+/*package com.example.demo;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
- import jakarta.persistence.Table;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "usuario")
@@ -13,9 +13,9 @@ public class User {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 
-	private String codigo;
-
 	private String nombre;
+
+	private int creditos;
 
 	public Integer getId() {
 		return id;
@@ -25,14 +25,6 @@ public class User {
 		this.id = id;
 	}
 
-	public String getCodigo() {
-		return codigo;
-	}
-
-	public void setCodigo(String codigo) {
-		this.codigo = codigo;
-	}
-
 	public String getNombre() {
 		return nombre;
 	}
@@ -40,4 +32,12 @@ public class User {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-}
+
+    public int getCreditos() {
+		return creditos;
+	}
+
+	public void setCreditos(int creditos) {
+		this.creditos = creditos;
+	}
+}*/

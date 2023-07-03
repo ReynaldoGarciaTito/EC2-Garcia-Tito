@@ -11,6 +11,16 @@ public class Controller{
 
     @GetMapping(path="/")
     public String home(){
-        return "SM75716675 - EC2 - Garcia Tito";
+        return "SM75716675 - Arnaldo Reynaldo Garcia Tito";
+    }
+
+    @GetMapping(path="/idat/codigo")
+    public String codigo(){
+        return "SM75716675";
+    }
+
+    @GetMapping(path="/idat/nombre-completo")
+    public String nombre(){
+        return "Arnaldo Reynaldo Garcia Tito";
     }
 }
